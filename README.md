@@ -9,6 +9,7 @@ This project is an interactive program that prints travel statistics on the Bike
 
 ### Files used
 An Interactive python program that gets the some of the statistics on BikeShare user like most frequent times of travel, route, trip duration etc.
+*The programmme is not yet complete*
 
 ### Credits
 The Udacity Pdsnd nanodegree program repository was forked for this project.
