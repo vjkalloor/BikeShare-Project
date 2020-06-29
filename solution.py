@@ -168,7 +168,20 @@ def user_stats(df, filter):
         print('Can not calculate the amount and gender of users, as an Error occurred: {}'.format(e))
 
     # Display earliest, most recent, and most common year of birth
+    #earliest year of birth
+    try:
+        min_year=int(df['Birth Year'].min())
+        print("Earliest birth year is: {}".format(str(min_year)))
 
+    #recent year of birth
+        max_year=int(df['Birth Year'].max())
+        print("Recent birth year is: {}".format(str(max_year)))
+
+    # common birth year
+        common_year=int(df['Birth Year'].mode().values[0])
+        print("Common birth year is: {}".format(str(common_year)))
+    except Exception as e:
+        print('Couldn\'t calculate the age structure of our customers, as an Error occurred: {}'.format(e)) 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
