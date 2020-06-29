@@ -161,7 +161,11 @@ def user_stats(df, filter):
     print(user_type, filter)
 
     # Display counts of gender
-
+    try:
+        gender_count=df['User Type'].value_counts()
+        print("Here are the counts of gender: {}".format(gender_count))
+    except Execption as e:
+        print('Can not calculate the amount and gender of users, as an Error occurred: {}'.format(e))
 
     # Display earliest, most recent, and most common year of birth
 
