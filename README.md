@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on *23 June 2020*
 
 ### Project Title
-Replace the Project Title
+**BikeShare Project**
 
 ### Description
-Describe what your project is about and what it does
+This project is an interactive program that prints travel statistics on the Bike Share data of the Chicago, New York City and washington DC.   
 
 ### Files used
-Include the files used
+An Interactive python program that gets the some of the statistics on BikeShare user like most frequent times of travel, route, trip duration etc.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The Udacity Pdsnd nanodegree program repository was forked for this project.
